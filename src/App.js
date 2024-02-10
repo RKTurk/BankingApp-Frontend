@@ -1,0 +1,14 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import QuestionList from './QuestionList';
+
+function App() {
+  return (
+    <div className="App">
+      <QuestionList />
+    </div>
+  );
+}
+
+export default App;
